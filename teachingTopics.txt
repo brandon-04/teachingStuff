@@ -1,0 +1,33 @@
+I LOVE MY WIFE AND I WANT TO TEACH HER USEFUL THINGS
+
+Basic HTML, CSS and JS.
+- Very basic basics /  
+- Flexbox Froggy /
+- Grid Garden 
+- Applying Styles website wide
+- Applying Styles to body
+- Advanced CSS Selectors
+- Inline and Seperate CSS
+- Base HTML 5 and 4 elements 
+    - <nav>
+    - <section>
+    - <div>
+    - <img> and alt
+    - <heading>
+    - <footer>
+    - <canvas>
+    - <svg>
+    - <ul>
+    - <p>
+    - <h1 - h6>
+- Emmet abbreviations
+
+Basic Web Design.
+- Sketching Ideas.
+
+<-Guided basic Web Project->
+Potential Ideas
+- Tribute to David Marteefant
+    - Include Header
+    - Seperate sections for about and achievements
+    - use of a UL for achievements
