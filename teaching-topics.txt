@@ -34,6 +34,7 @@ Basic HTML, CSS and JS.
     - <p>
     - <h1 - h6>
     - <form>
+    - <a>
 
 - Emmet abbreviations for object creation
 
@@ -54,6 +55,7 @@ Basic Web Design.
     - Important information
         - When the Tour is
         - A few vital locations for the tour
+        - Social Media links (can just be icons with a hover)
     - Cool background image that includes Billie
     - Cool title (custom font)
 
