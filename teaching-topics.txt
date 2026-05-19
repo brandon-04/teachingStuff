@@ -1,0 +1,104 @@
+I LOVE MY WIFE AND I WANT TO TEACH HER USEFUL THINGS
+
+Basic HTML, CSS and JS.
+- Very basic basics /  
+- Flexbox Froggy /
+- Grid Garden 
+- Folder structure
+- Margin, border and padding box
+
+- Inline and Seperate styling
+- Applying Styles website wide
+- Applying Styles to body
+- Advanced CSS Selectors
+- CSS measurment Units
+    - em (relative to the font size of the parent element)
+    - rem (relative to the font size of the root element)
+    - vh (equivalent to 1% of the viewport height)
+    - vw (equivalent to 1% of the viewport width)
+    - %
+
+- Importing custom fonts
+- Base HTML 5 and 4 elements 
+    - <nav>
+    - <section>
+    - <div>
+    - <img> and alt
+    - <heading>
+    - <footer>
+    - <canvas>
+    - <svg>
+    - <ul>
+    - <p>
+    - <h1 - h6>
+    - <form>
+
+- Emmet abbreviations for object creation
+
+Basic Web Design.
+- Sketching Ideas.
+
+<-Guided basic Web Projects (NO JS)->
+
+- Tribute to David Marteefant
+    - Include Header
+    - Seperate sections for about and achievements
+    - use of a UL for achievements
+    - Include Footer
+
+- Landing page for Billie Eilish Tour (NO JS)->
+    - Focus on being artsy and the design process
+    - One page
+    - Important information
+        - When the Tour is
+        - A few vital locations for the tour
+    - Cool background image that includes Billie
+    - Cool title (custom font)
+
+
+
+Programming.
+
+General basics
+- Variables and naming conventions
+
+- Primitive Data types
+    - Bool
+    - Integer
+    - Float
+    - Double
+    - String
+    - Char
+
+- IF statements
+    - Operators
+        - ==
+        - ===
+        - ||
+        - &&
+        - %
+
+- Data structures
+    - Arrays
+    - Objects
+
+- Loops
+    - For
+    - While
+    - Foreach
+
+- Web specific JS
+    - Event listeners
+    - Element creation
+    - Setting attributes
+
+
+<-Basic JS Programming Projects->
+
+Etch-a-sketch web page
+
+Live time web page.
+
+
+
+
