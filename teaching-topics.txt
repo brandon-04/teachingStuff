@@ -1,10 +1,12 @@
 I LOVE MY WIFE AND I WANT TO TEACH HER USEFUL THINGS
 
+/ == done
+
 Basic HTML, CSS and JS.
 - Very basic basics /  
 - Flexbox Froggy /
 - Grid Garden 
-- Folder structure
+- Project Folder structure
 - Margin, border and padding box
 
 - Inline and Seperate styling
