@@ -100,9 +100,17 @@ Programming.
 
 <-Basic JS Programming Projects->
 
-Etch-a-sketch web page
+Live time and date website -> Helps practice general JS dateTime functions and changing elements using JS.
+    - Displays YYYY, MM, DD && Hours, Minutes, Seconds
+    - Style and Fonts do not matter too much, this is JS practice
+    - Make it look nice if you want to though <3
 
-Live time web page.
+Etch-a-sketch web page -> Helps practice element creation using JS.
+    - a 64x64 grid that colours cells a random colour when the mouse hovers over it
+    - Must include a reset button that clears grid
+    - cells must be generated using JS
+
+
 
 
 
