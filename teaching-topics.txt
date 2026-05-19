@@ -21,6 +21,7 @@ Basic HTML, CSS and JS.
     - %
 
 - Importing custom fonts
+- Favicons
 - Base HTML 5 and 4 elements 
     - <nav>
     - <section>
@@ -45,6 +46,7 @@ Basic Web Design.
 
 - Tribute to David Marteefant
     - Include Header
+    - Use apple-ui font
     - Seperate sections for about and achievements
     - use of a UL for achievements
     - Include Footer
