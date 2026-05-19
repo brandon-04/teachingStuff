@@ -7,8 +7,7 @@ setInterval(() => {
 function updateDisplay() {
     let fullDate = new Date();
     let months = ["Jan", "Feb",  "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", ]
-    //year = month = day = | time =  : :
+    let days = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat",]
 
     let year = fullDate.getFullYear();
     let month = months[fullDate.getMonth()];
