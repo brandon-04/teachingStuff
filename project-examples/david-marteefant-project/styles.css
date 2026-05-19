@@ -75,6 +75,11 @@ body {
     font-size: 2rem;
 }
 
+#landscape-shot {
+    height: 200px;
+    border-radius: 15px;
+}
+
 #head-shot {
     height: 150px;
     width: 150px;
