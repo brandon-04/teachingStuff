@@ -6,14 +6,14 @@ Basic HTML, CSS and JS.
 - Very basic basics /  
 - Flexbox Froggy /
 - Grid Garden 
-- Project Folder structure
-- Margin, border and padding box
+- Project Folder structure /
+- Margin, border and padding box /
 
 - Inline and Seperate styling
 - Applying Styles website wide
 - Applying Styles to body
 - Advanced CSS Selectors
-- CSS measurment Units
+- CSS measurment Units /
     - em (relative to the font size of the parent element)
     - rem (relative to the font size of the root element)
     - vh (equivalent to 1% of the viewport height)
