@@ -118,12 +118,6 @@ Etch-a-sketch web page -> Helps practice element creation using JS. -> Example c
     - Must include a reset button that clears grid
     - cells must be generated using JS
 
-Temperature Converter -> Helps practice form inputs and fetching data from inputs using JS. 
-    - An input and a button that changes the converter from C -> F to F -> C and vise versa.
-    - Displays temperature in a seperate box with relevant F or C.
-    - Shows formula for conversion
-    - Make it look fancy!!
-
 
 
 
