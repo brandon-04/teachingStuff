@@ -27,7 +27,7 @@ function gridGeneration() {
 
 
             cell.addEventListener("mouseover", () => {
-                cell.style.backgroundColor = ;
+                cell.style.backgroundColor = getRandomHexCode();
             });
     
             row.appendChild(cell);
@@ -47,10 +47,19 @@ function clearGrid() {
     }
 }
 
-function getRandomColor() {
-    
+function getRandomHexCode() {
+    let arr = ["A","B","C","D","E","F","G","0","1","2","3","4","5","6","7","8","9"];
+    let hex = "";
+
+    for(let i = 0; i < 6; i++) {
+        hex += arr[getRandomNum(arr.length)];
+    }
+    return `#${hex}`;
+
 }
 
-function getRandomNum() {
-    
+function getRandomNum(max) {
+    return Math.floor(Math.random() * max)
 }
+
+
