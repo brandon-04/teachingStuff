@@ -10,7 +10,7 @@ resetButton.addEventListener("click", () => {
     clearGrid();
 });
 
-gridGeneration();
+gridGeneration(); 
 
 function gridGeneration() {
     for(let i = 0; i < gridDimension; i++ ) {
@@ -21,15 +21,16 @@ function gridGeneration() {
         for(let x = 0; x < gridDimension; x++) {
             let cell = document.createElement("div");
             let cellID = `cell${i}-${x}`;
-            cell.setAttribute("class", "cell");
-            cell.setAttribute("id", cellID)
-            cell.style.width = cellPercentage;
 
+            cell.setAttribute("class", "cell");
+            cell.setAttribute("id", cellID);
 
             cell.addEventListener("mouseover", () => {
                 cell.style.backgroundColor = getRandomHexCode();
             });
-    
+
+            cell.style.width = cellPercentage;
+
             row.appendChild(cell);
         }
         container.appendChild(row);
@@ -55,11 +56,10 @@ function getRandomHexCode() {
         hex += arr[getRandomNum(arr.length)];
     }
     return `#${hex}`;
-
 }
 
 function getRandomNum(max) {
-    return Math.floor(Math.random() * max)
+    return Math.floor(Math.random() * max);
 }
 
 
