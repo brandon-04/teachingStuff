@@ -23,21 +23,23 @@ Basic HTML, CSS and JS.
 
 - Importing custom fonts /
 - Favicons
-- Base HTML 5 and 4 elements 
-    - <nav>
-    - <section>
+- Base HTML 5 and 4 elements /
+    - <nav> /
+    - <section> /
     - <div> /
-    - <img> && alt
-    - <heading>
-    - <footer>
-    - <canvas>
-    - <svg>
-    - <ul>
-    - <p>
-    - <button>
+    - <img> && alt /
+    - <heading> /
+    - <footer> /
+    - <svg> /
+    - <ul> and <li>  /
+    - <p> /
+    - <button> /
     - <h1 - h6> /
-    - <form>
-    - <a>
+    - <form> /
+    - <input> /
+    - <label> /
+    - <a> /
+    - <b> <u> <i> <br> /
 
 - Emmet abbreviations for object creation
 
@@ -46,7 +48,7 @@ Basic Web Design.
 
 <-Guided basic Web Projects (NO JS)->
 
-- Tribute to David Marteefant -> helps understand seperate sections, padding and margins, flexbox prac, unordered lists and general css styling. -> Example created
+- Memorial to David Marteefant -> helps understand seperate sections, padding and margins, flexbox prac, unordered lists and general css styling. -> Example created
     - Include Header
     - Use apple-ui font
     - Seperate sections for about and achievements
@@ -104,7 +106,7 @@ Programming.
 Counter -> helps understand dom modification and event listeners -> Example created
     - a button for increasing, decreasing and resetting counter.
 
-Random Background Color Changer -> helps understand basic dom modification and event listeners
+Random Background Color Changer -> helps understand basic dom modification and event listeners -> Example created
     - Button on the center of the page that changes background color when clicked
     - text display that shows what color the background is.
 
