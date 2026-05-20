@@ -33,6 +33,7 @@ Basic HTML, CSS and JS.
     - <svg>
     - <ul>
     - <p>
+    - <button>
     - <h1 - h6> /
     - <form>
     - <a>
@@ -106,7 +107,7 @@ Live time and date website -> Helps practice general JS dateTime functions and c
     - Make it look nice if you want to though <3
 
 Etch-a-sketch web page -> Helps practice element creation using JS.
-    - a 64x64 grid that colours cells a random colour when the mouse hovers over it
+    - a 50x50 grid that colours cells a random colour when the mouse hovers over it
     - Must include a reset button that clears grid
     - cells must be generated using JS
 
