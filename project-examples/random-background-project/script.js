@@ -3,14 +3,10 @@ let colorDisplay = document.querySelector("#color-display");
 let changeButton = document.querySelector("#change-button");
 
 changeButton.addEventListener("click", () => {
-    setTimeout(() => {
-        updateColor();
-    },100);
+    updateColor(getRandomHexCode());
 });
 
-function updateColor() {
-    let hex = getRandomHexCode();
-
+function updateColor(hex) {
     colorDisplay.textContent = `color: ${hex}`;
     page.style.backgroundColor = hex; 
 }
