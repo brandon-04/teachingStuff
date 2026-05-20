@@ -45,7 +45,7 @@ Basic Web Design.
 
 <-Guided basic Web Projects (NO JS)->
 
-- Tribute to David Marteefant -> helps understand seperate sections, padding and margins, flexbox prac, unordered lists and general css styling.
+- Tribute to David Marteefant -> helps understand seperate sections, padding and margins, flexbox prac, unordered lists and general css styling. -> Example created
     - Include Header
     - Use apple-ui font
     - Seperate sections for about and achievements
@@ -53,7 +53,7 @@ Basic Web Design.
     - Include Footer
 
 
-- Landing page for Billie Eilish Tour -> helps understand the design process, custom fonts and flexbox prac.
+- Landing page for Billie Eilish Tour -> helps understand the design process, custom fonts and flexbox prac. -> Example created
     - Focus on being artsy and the design process
     - One page
     - Important information
@@ -100,18 +100,28 @@ Programming.
 
 
 <-Basic JS Programming Projects->
+Counter -> helps understand dom modification and event listeners
+    - a button for increasing, decreasing and resetting counter.
 
-Live time and date website -> Helps practice general JS dateTime functions and changing elements using JS.
+Random Background Color Changer -> helps understand basic dom modification and event listeners
+    - Button on the center of the page that changes background color when clicked
+    - text display that shows what color the background is.
+
+Live time and date website -> Helps practice general JS dateTime functions and changing elements using JS. -> Example created
     - Displays YYYY, MM, DD && Hours, Minutes, Seconds
     - Style and Fonts do not matter too much, this is JS practice
     - Make it look nice if you want to though <3
 
-Etch-a-sketch web page -> Helps practice element creation using JS.
+Etch-a-sketch web page -> Helps practice element creation using JS. -> Example created
     - a 50x50 grid that colours cells a random colour when the mouse hovers over it
     - Must include a reset button that clears grid
     - cells must be generated using JS
 
-
+Temperature Converter -> Helps practice form inputs and fetching data from inputs using JS. 
+    - An input and a button that changes the converter from C -> F to F -> C and vise versa.
+    - Displays temperature in a seperate box with relevant F or C.
+    - Shows formula for conversion
+    - Make it look fancy!!
 
 
 
