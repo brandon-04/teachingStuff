@@ -15,7 +15,8 @@ Basic HTML, CSS and JS.
 - Advanced CSS Selectors
 - CSS measurment Units /
     - em (relative to the font size of the parent element) /
-    - rem (relative to the font size of the root element) /
+    - rem (relative to the font size of the root e    let ms = fullDate.getMilliseconds();
+    let millisecond = formatMS(ms);lement) /
     - vh (equivalent to 1% of the viewport height) /
     - vw (equivalent to 1% of the viewport width) /
     - % /
@@ -100,7 +101,7 @@ Programming.
 
 
 <-Basic JS Programming Projects->
-Counter -> helps understand dom modification and event listeners
+Counter -> helps understand dom modification and event listeners -> Example created
     - a button for increasing, decreasing and resetting counter.
 
 Random Background Color Changer -> helps understand basic dom modification and event listeners
