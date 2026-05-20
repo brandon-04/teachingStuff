@@ -2,7 +2,7 @@ let display = document.querySelector("#display");
 
 setInterval(() => {
     updateDisplay();
-},50);
+},1);
 
 function updateDisplay() {
     let fullDate = new Date();
@@ -19,9 +19,7 @@ function updateDisplay() {
 
     let newVal = `year = ${year} | month = ${month} | day = ${day} | time =  ${hour} : ${minute} : ${second}`;
 
-    display.textContent = newVal
-
-    console.log(hour);
+    display.textContent = newVal;
 }
 
 function addZero(val) {
