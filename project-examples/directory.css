@@ -52,7 +52,7 @@ section {
     font-size: 1rem;
 }
 
-#js-project-container, #no-js-project-container{
+#js-project-container, #no-js-project-container {
     display: flex;
     justify-content: center;
     align-items: center;
