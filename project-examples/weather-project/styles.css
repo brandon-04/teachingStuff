@@ -10,6 +10,7 @@ body {
 * {
     font-family: 'Courier New', Courier, monospace;
     color: black;
+    text-align: center;
 }
 
 #main-box {
@@ -88,6 +89,10 @@ body {
     border-radius: 15px;
 
     background-color: lightgray;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #weather-info-box {

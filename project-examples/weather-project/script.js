@@ -32,7 +32,7 @@ const weatherCodes = {
 const cityInput = document.querySelector("#city-input");
 const searchButton = document.querySelector("#search-button");
 
-let weatherImage = document.querySelector("#weather-image-box");
+let weatherImageDisplay = document.querySelector("#weather-image-box");
 let countryDisplay = document.querySelector("#country-display");
 let cityDisplay = document.querySelector("#city-display");
 let conditionDisplay = document.querySelector("#condition-display");
@@ -56,12 +56,21 @@ async function getWeather() {
     const latitude = geoData.results[0].latitude;
     const country = geoData.results[0].country;
 
-    //weather forecast
+    //weather fetch
     const weatherUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true`;
     const weatherResponse = await fetch(weatherUrl);
     const weatherData = await weatherResponse.json();
 
     console.log(weatherData)
 
-    
+    temperatureDisplay.textContent = `temperature: ${weatherData.current_weather.temperature} °C`;
+    windspeedDisplay.textContent = `windspeed: ${weatherData.current_weather.windspeed} km/h`;
+    cityDisplay.textContent = `city: ${city}`;
+    countryDisplay.textContent = `country: ${country}`;
+
+    let [weatherCond, weatherImage] = weatherCodes[weatherData.current_weather.weathercode];
+
+    conditionDisplay.textContent = `condition: ${weatherCond}`;
+
+    weatherImageDisplay.style.backgroundImage = `url('img/${weatherImage}')`;
 }
