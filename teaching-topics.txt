@@ -5,7 +5,7 @@ I LOVE MY WIFE AND I WANT TO TEACH HER USEFUL THINGS
 Basic HTML, CSS and JS.
 - Very basic basics /  
 - Flexbox Froggy /
-- Grid Garden 
+- Grid Garden /
 - Project Folder structure /
 - Margin, border and padding box /
 
@@ -49,11 +49,11 @@ Basic Web Design.
 <-Guided basic Web Projects (NO JS)->
 
 - Memorial to David Marteefant -> helps understand seperate sections, padding and margins, flexbox prac, unordered lists and general css styling. -> Example created
-    - Include Header
-    - Use apple-ui font
-    - Seperate sections for about and achievements
-    - use of a ul for achievements
-    - Include Footer
+    - Include Header /
+    - Use apple-ui font /
+    - Seperate sections for about and achievements /
+    - use of a ul for achievements /
+    - Include Footer /
 
 
 - Landing page for Billie Eilish Tour -> helps understand the design process, custom fonts and flexbox prac. -> Example created
@@ -69,32 +69,32 @@ Basic Web Design.
 Programming.
 
 <-General Programming->
-- Variables and naming conventions
+- Variables and naming conventions /
 
-- Primitive Data types
-    - Bool
-    - Integer
-    - Float
-    - Double
-    - String
-    - Char
+- Primitive Data types/
+    - Bool/
+    - Integer/
+    - Float/
+    - Double/
+    - String/
+    - Char/
 
 - IF statements
-    - logical operators
-        - ==
-        - ===
-        - ||
-        - &&
-        - %
+    - logical operators/
+        - ==/
+        - ===/
+        - ||/
+        - &&/
+        - %/
 
-- Data structures
-    - Arrays
-    - Objects
+- Data structures/
+    - Arrays/
+    - Objects/
 
 - Loops
-    - For
-    - While
-    - Foreach
+    - For /
+    - While /
+    - Foreach /
 
 - Web specific JS
     - Event listeners
