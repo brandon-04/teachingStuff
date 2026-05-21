@@ -103,6 +103,8 @@ Programming.
 
 
 <-Basic JS Programming Projects->
+all of these will be walk-through style
+
 Counter -> helps understand dom modification and event listeners -> Example created
     - a button for increasing, decreasing and resetting counter.
 
@@ -120,6 +122,9 @@ Etch-a-sketch web page -> Helps practice element creation using JS. -> Example c
     - Must include a reset button that clears grid
     - cells must be generated using JS
 
+Weather web page -> Helps understand the use of API's and extracting data from JSON -> 
+    - A simple web page that accepts a City input
+    - Upon selecting city the weather data updates and shows the weather
 
 
 
