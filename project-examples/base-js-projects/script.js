@@ -64,12 +64,15 @@ function fooFizzBuzzBar() {
 // Go to the store and buy some more, 99 bottles of beer on the wall.
 function ninetyNineBottlesOfBeer() {
     for(let i = 99; i >= 0; i--) {
-        let val = i > 0 ? i : "No more";
-        console.log(`${val} bottles of beer on the wall, ${val} bottles of beer.\n` + `Take one down and pass it around, ${isNaN(val) ? val : val - 1} bottles of beer on the wall.`);
+        let val = i == 0 ? "No more" : i;
+        let s = i == 1 ? "" : "s";
+        
+        console.log(`${val} bottle${s} of beer on the wall, ${val} bottle${s} of beer.\n` + `Take one down and pass it around, ${val - 1 == 0 || isNaN(val) ? "No More" : val - 1} bottle${val - 1 == 1 ? "" : "s"} of beer on the wall.`);
     } 
+    console.log("go to the store, buy some more, 99 bottles of beer on the wall");
 }
 
 // Given a date in the YYYY-MM-DD format between 1583-01-01 and 9999-12-31 inclusive, output the English name of the corresponding day of the week. 
 function dayOfWeek() {
-    
+    //1583-03-01 -> YYYY-MM-DD
 }
