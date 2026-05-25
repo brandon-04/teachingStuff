@@ -75,4 +75,7 @@ function ninetyNineBottlesOfBeer() {
 // Given a date in the YYYY-MM-DD format between 1583-01-01 and 9999-12-31 inclusive, output the English name of the corresponding day of the week. 
 function dayOfWeek() {
     //1583-03-01 -> YYYY-MM-DD
+    let testData = ["1873-07-24", "1667-10-27", "5254-04-21"];
+
+    
 }
