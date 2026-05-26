@@ -97,12 +97,13 @@ Programming.
     - Foreach /
 
 - Web specific JS
-    - Event listeners
-    - Element creation
+    - Event listeners /
+    - Element creation /
     - Setting attributes
 
+        </div>
 <-Basic JS Only projects->
-Fizz buzz ->
+Fizz buzz -> /
     - Print the numbers from 1 -> 100 each on their own line however;
     - if the number is a multiple of 3, print "Fizz" instead
     - if the number is a multiple of 5, print "Buzz" instead
