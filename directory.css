@@ -1,0 +1,97 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+
+    margin: 0;
+}
+
+section {
+    background-color: #373f73;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 10%;
+    width: 100%;
+
+    font-size: 1.5rem;
+
+    border-bottom: 2px solid black;
+}
+
+#no-js-projects, #js-projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 45%;
+    width: 100%;
+
+    overflow-y: scroll;
+}
+
+#no-js-projects > h1, #js-projects > h1 {
+    font-size: 1rem;
+}
+
+#js-project-container, #no-js-project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+
+    gap: 5%;
+
+    height: 90%;
+    width: 100%;
+}
+
+a:before, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.project-taster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 250px;
+    width: 400px;
+
+    border-radius: 15px;
+}
+
+.project-taster:hover {
+    background-color: teal;
+}
+
+.project-taster > h1 {
+    font-size: 1rem;
+}
+
+.project-taster > img {
+    height: 60%;    
+    border-radius: 15px;
+}
+
+

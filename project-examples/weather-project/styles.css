@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #1D3461;
+    background: linear-gradient(90deg,rgba(29, 52, 97, 1) 0%, rgba(31, 72, 126, 1) 100%);
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+#main-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 700px;
+    width: 700px;
+
+    border: thin inset black;
+    border-radius: 15px;
+
+    background-color: lightsteelblue;
+}
+
+#weather-title {
+    font-size: 50px;
+    margin: 0;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 5%;
+
+    height: 10%;
+    width: 50%;
+}
+
+#city-input {
+    height: 70%;
+    width: 70%;
+
+    background-color: lightgray;
+    border: thin black solid;
+    border-radius: 15px;
+}
+#city-input:focus {
+    border-color: #1D3461;
+    filter: drop-shadow(0 0 0.75rem #1D3461);;
+
+}
+
+#search-button {
+    height: 70%;
+    width: 20%;
+
+    border-radius: 15px;
+
+    background-color: #1F487E;
+    background-image: url('img/magnify.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#search-button:hover {
+    background-image: url('img/magnify-white.png');
+}
+
+#weather-image-box {
+    height: 25%;
+    width: 25%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    border: thin black solid;
+    border-radius: 15px;
+
+    background-color: lightgray;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#weather-info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 35%;
+    width: 50%;
+
+    border: thin black solid;
+    border-radius: 15px;
+
+    background-color: lightgray;
+}
+
+#weather-info-box > h1 {
+    font-size: 1.25rem;
+}
